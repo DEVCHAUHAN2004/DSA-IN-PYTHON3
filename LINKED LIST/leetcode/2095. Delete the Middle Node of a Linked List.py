@@ -43,7 +43,7 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def deleteMiddle(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    def deleteMiddle(self, head):
         if head is None or head.next is None:
             return None
 

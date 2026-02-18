@@ -41,5 +41,3 @@ class Solution(object):
         # 
 
 # OPTIMAL 
-slow = head
-fast = head
