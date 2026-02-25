@@ -23,10 +23,6 @@
 #         self.next = next
 class Solution(object):
     def middleNode(self, head):
-        """
-        :type head: Optional[ListNode]
-        :rtype: Optional[ListNode]
-        """
         temp = head
         n = 0
 
@@ -38,6 +34,3 @@ class Solution(object):
         for i in range(n//2):
             temp = temp.next
         return temp        
-        # 
-
-# OPTIMAL 
